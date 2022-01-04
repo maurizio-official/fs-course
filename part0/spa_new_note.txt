@@ -1,0 +1,13 @@
+browser -> server: HTTP POST ttps://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server -> browser: 201 status
+
+note over browser:
+The browser will add the new message 
+to the list with the redrawNotes() function 
+(the new message added hasn't got it from the database)
+end note 
+
+note over server:
+The server will save in the database 
+the information that the user has sent
+end note
